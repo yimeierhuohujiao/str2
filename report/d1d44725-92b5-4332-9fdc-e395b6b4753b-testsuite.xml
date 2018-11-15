@@ -1,0 +1,129 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1541905405306" stop="1541905405578">
+  <name>scripts</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1541905405306" status="passed" stop="1541905405316">
+      <name>test_contact.TestContact.test_hello1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="8424-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1541905405320" status="failed" stop="1541905405552">
+      <name>test_contact.TestContact.test_hello2</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_contact.TestContact object at 0x1087db550&gt;
+
+    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)
+    def test_hello2(self):
+        print("hello1")
+&gt;       assert 0
+E       assert 0
+
+scripts/test_contact.py:15: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="trivial"/>
+        <label name="thread" value="8424-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1541905405555" status="passed" stop="1541905405558">
+      <name>test_search.TestSearch.test_search[hello1]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8424-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1541905405557" status="passed" stop="1541905405558">
+          <name>点击搜索</name>
+          <title>点击搜索</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1541905405558" status="passed" stop="1541905405558">
+          <name>输入文字</name>
+          <title>输入文字</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1541905405558" status="passed" stop="1541905405558">
+          <name>点击返回</name>
+          <title>点击返回</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1541905405560" status="passed" stop="1541905405564">
+      <name>test_search.TestSearch.test_search[xiaoming]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="8424-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1541905405563" status="passed" stop="1541905405563">
+          <name>点击搜索</name>
+          <title>点击搜索</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1541905405563" status="passed" stop="1541905405563">
+          <name>输入文字</name>
+          <title>输入文字</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1541905405564" status="passed" stop="1541905405564">
+          <name>点击返回</name>
+          <title>点击返回</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1541905405568" status="passed" stop="1541905405578">
+      <name>test_search.TestSearch.test_search1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="blocker"/>
+        <label name="thread" value="8424-MainThread"/>
+        <label name="host" value="haoyuexing.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1541905405575" status="passed" stop="1541905405576">
+          <name>点击搜索</name>
+          <title>点击搜索</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1541905405576" status="passed" stop="1541905405576">
+          <name>点击返回</name>
+          <title>点击返回</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

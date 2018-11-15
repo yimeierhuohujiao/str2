@@ -1,0 +1,6 @@
+"Status","Name","Duration in ms","Description"
+"passed","scripts.test_search.TestSearch.test_search1","10",""
+"passed","scripts.test_search.TestSearch.test_search[xiaoming]","4",""
+"failed","scripts.test_contact.TestContact.test_hello2","232",""
+"passed","scripts.test_contact.TestContact.test_hello1","10",""
+"passed","scripts.test_search.TestSearch.test_search[hello1]","3",""

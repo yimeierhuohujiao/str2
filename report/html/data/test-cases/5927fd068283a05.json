@@ -1,0 +1,66 @@
+{
+  "uid" : "5927fd068283a05",
+  "name" : "test_contact.TestContact.test_hello2",
+  "fullName" : "scripts.test_contact.TestContact.test_hello2",
+  "historyId" : "aa21388aaf4339d7a98743ea55222590",
+  "time" : {
+    "start" : 1541905405320,
+    "stop" : 1541905405552,
+    "duration" : 232
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_contact.TestContact object at 0x1087db550>\n\n    @pytest.allure.severity(pytest.allure.severity_level.TRIVIAL)\n    def test_hello2(self):\n        print(\"hello1\")\n>       assert 0\nE       assert 0\n\nscripts/test_contact.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "haoyuexing.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "thread",
+    "value" : "8424-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_contact.TestContact.test_hello2"
+  }, {
+    "name" : "package",
+    "value" : "scripts"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "trivial",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5927fd068283a05.json",
+  "parameterValues" : [ ]
+}
